@@ -5,9 +5,8 @@ import numpy as np
 #import math
 from PIL import Image  # Pillow
 
-SCALE70 = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`". '
+SCALE70 = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1\{\}[]?-_+~<>i!lI;:,\"^`". '
 SCALE10 = '@%#*+=-:. '
-
 
 
 def get_average_luminance(image):
